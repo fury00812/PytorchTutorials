@@ -1,8 +1,8 @@
 # About
-[Pytorch公式チュートリアル](https://pytorch.org/tutorials/)への取り組みをまとめる. 基本的にコードはそのまま, コメント多めです.
+[Pytorch公式チュートリアル](https://pytorch.org/tutorials/)への取り組みをまとめる. 基本的にコードはそのまま, コメント多めです.  
+以下の紹介は取り組んだ順に追記していきます
 
-
-### 1. [NEURAL NETWORKS](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)(neural_networks_tutorial)
+### [NEURAL NETWORKS](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)(neural_networks_tutorial)
 - CNNの原形であるLeNetの実装.  
   ![lenet](https://user-images.githubusercontent.com/35480446/57579766-b41d7500-74db-11e9-812c-5883e1a7923f.png)
 
@@ -11,3 +11,8 @@
 - モデルの構築から出力・損失計算,パラメータ更新と一連の流れが理解できる. ただ学習は1度切りで繰り返し処理は無い．
 
 - [こちらのサイト](https://qiita.com/mckeeeen/items/e255b4ac1efba88d0ca1)が日本語で丁寧に解説してくださってます.
+
+### [WHAT IS PYTORCH?](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html)(tensor_tutorial)
+- テンソルの扱い方（初期化,演算,ndarray相互変換など）を紹介
+- 基本的なTensor作成方法が列挙されている. チュートリアルというかリファレンス的な感じ
+- Numpy Arrayとの変換は便利そうだなと思った
