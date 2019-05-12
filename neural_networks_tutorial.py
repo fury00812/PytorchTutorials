@@ -1,6 +1,6 @@
 '''
+https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html
 CNNの原形LeNetの実装
-丁寧な解説 : https://qiita.com/mckeeeen/items/e255b4ac1efba88d0ca1
 '''
 import torch
 import torch.nn as nn
@@ -136,4 +136,4 @@ if __name__ == '__main__':
     loss=criterion(output, target) #lossの計算
     loss.backward() #勾配の計算(誤差逆伝播)
     optimizer.step() #重みの更新
-    print(params[0].grad.data) 
+    print(params[0].grad.data)
