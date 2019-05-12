@@ -5,6 +5,7 @@ CNNの原形LeNetの実装
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import torch.optim as optim
 
 class Net(nn.Module):
     '''
@@ -121,3 +122,18 @@ if __name__ == '__main__':
     for f in net.parameters():
         #f.data -= f.data - learning_rate*f.grad.data
         f.data.sub_(learning_rate*f.grad.data)
+    print(params[0].grad.data)
+
+    '''
+    step7 : 最適化モジュールによる実装（step4~6）
+    '''
+    #SGDのインスタンスを生成
+    optimizer=optim.SGD(net.parameters(),lr=0.01)
+
+    #イテレーション毎に以下を実行する
+    optimizer.zero_grad() #勾配の初期化
+    output=net(input) #出力の計算
+    loss=criterion(output, target) #lossの計算
+    loss.backward() #勾配の計算(誤差逆伝播)
+    optimizer.step() #重みの更新
+    print(params[0].grad.data) 
