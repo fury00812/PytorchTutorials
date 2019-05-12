@@ -2,7 +2,7 @@
 [Pytorch公式チュートリアル](https://pytorch.org/tutorials/)への取り組みをまとめる. 基本的にコードはそのまま, コメント多めです.
 
 
-### 1. [NEURAL NETWORKS](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)
+### 1. [NEURAL NETWORKS](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)(neural_networks_tutorial)
 - CNNの原形であるLeNetの実装.  
   ![lenet](https://user-images.githubusercontent.com/35480446/57579766-b41d7500-74db-11e9-812c-5883e1a7923f.png)
 
@@ -11,4 +11,3 @@
 - モデルの構築から出力・損失計算,パラメータ更新と一連の流れが理解できる. ただ学習は1度切りで繰り返し処理は無い．
 
 - [こちらのサイト](https://qiita.com/mckeeeen/items/e255b4ac1efba88d0ca1)が日本語で丁寧に解説してくださってます.
-
