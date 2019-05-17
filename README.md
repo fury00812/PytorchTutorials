@@ -16,3 +16,7 @@
 - テンソルの扱い方（初期化,演算,ndarray相互変換など）を紹介
 - 基本的なTensor作成方法が列挙されている. チュートリアルというかリファレンス的な感じ
 - Numpy Arrayとの変換は便利そうだなと思った
+
+### [AUTOGRAD: AUTOMATIC DIFFERENTIATION](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+- PyTorchの売りであるautograd（自動微分）についてその使い方を紹介
+- print("----")で区切ってjupyterやcolaboratoryとかで動かすと分かりやすいかもしれません
