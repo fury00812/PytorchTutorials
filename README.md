@@ -20,3 +20,8 @@
 ### [AUTOGRAD: AUTOMATIC DIFFERENTIATION](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 - PyTorchの売りであるautograd（自動微分）についてその使い方を紹介
 - print("----")で区切ってjupyterやcolaboratoryとかで動かすと分かりやすいかもしれません
+
+### [CLASSIFYING NAMES WITH A CHARACTER-LEVEL RNN](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)
+- RNNモジュールを用いた時系列データ処理のチュートリアル. 人名を入力として与え18の言語に分類
+- 機械学習の一連の流れが掴める(データの準備, モデルの定義, 学習, 評価)
+  ![rnn_loss](https://user-images.githubusercontent.com/35480446/58886668-4867aa00-871f-11e9-9746-0a87f5dff15b.png)
